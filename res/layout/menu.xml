@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pic"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/menutv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Menu"
+        android:textColor="#fff"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/marksbt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="50dp"
+        android:background="#ffff"
+        android:text="Marks"
+        android:textColor="#25c" />
+
+    <Button
+        android:id="@+id/attendancebt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:background="#ffff"
+        android:text="Attendance"
+        android:textColor="#25c" />
+
+    <Button
+        android:id="@+id/timetablebt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:background="#ffff"
+        android:text="Timetable"
+        android:textColor="#25c" />
+
+    <Button
+        android:id="@+id/notificationsbt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:background="#ffff"
+        android:text="Notifications"
+        android:textColor="#25c" />
+
+</LinearLayout>
