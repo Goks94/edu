@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs_marks" value="name:reg;datatype:string,name:sub1;datatype:int,name:sub2;datatype:int,name:sub3;datatype:int,name:sub4;datatype:int,name:sub5;datatype:int,name:sub6;datatype:int,name:sub7;datatype:int,name:sub8;datatype:int,name:total;datatype:int" />
+	<infoitem key="UD_rs_mark" value="name:reg;datatype:string,name:sub1;datatype:int,name:sub2;datatype:int,name:sub3;datatype:int,name:sub4;datatype:int,name:sub5;datatype:int,name:sub6;datatype:int,name:sub7;datatype:int,name:sub8;datatype:int,name:total;datatype:int" />
+	<infoitem key="UD_rs_subject" value="name:slno;datatype:int,name:class;datatype:string,name:subcode;datatype:string,name:name;datatype:string" />
+</info>

@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:layout_marginTop="25dp"
+        >
+
+        <TextView
+
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="CS501"
+            android:id="@+id/en501"
+            android:layout_weight="50"
+            android:gravity="center"
+            android:textColor="#ffff"
+            android:textSize="20sp"
+
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+
+            android:id="@+id/marks501"
+            android:layout_weight="50"
+            android:gravity="center"
+            android:textColor="#ffff"
+            android:textSize="20sp"
+
+            />
+
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="CS502"
+            android:id="@+id/en502"
+            android:layout_weight="50"
+            android:gravity="center"
+            android:textColor="#ffff"
+            android:textSize="20sp"
+
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+
+            android:id="@+id/marks502"
+            android:layout_weight="50"
+            android:gravity="center"
+            android:textColor="#ffff"
+            android:textSize="20sp"
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="CS503"
+            android:id="@+id/en503"
+            android:layout_weight="50"
+            android:gravity="center"
+            android:textColor="#ffff"
+            android:textSize="20sp"
+
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+
+            android:id="@+id/marks503"
+            android:layout_weight="50"
+            android:gravity="center"
+            android:textColor="#ffff"
+            android:textSize="20sp"
+
+            />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="CS504"
+            android:id="@+id/en504"
+            android:layout_weight="50"
+            android:gravity="center"
+            android:textColor="#ffff"
+            android:textSize="20sp"
+
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+
+            android:id="@+id/marks504"
+            android:layout_weight="50"
+            android:gravity="center"
+            android:textColor="#ffff"
+            android:textSize="20sp"
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="CS505"
+            android:id="@+id/en505"
+            android:layout_weight="50"
+            android:gravity="center"
+            android:textColor="#ffff"
+            android:textSize="20sp"
+
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+
+            android:id="@+id/marks505"
+            android:layout_weight="50"
+            android:gravity="center"
+            android:textColor="#ffff"
+            android:textSize="20sp"
+
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="CS506"
+            android:id="@+id/en506"
+            android:layout_weight="50"
+            android:gravity="center"
+            android:textColor="#ffff"
+            android:textSize="20sp"
+
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+
+            android:id="@+id/marks506"
+            android:layout_weight="50"
+            android:gravity="center"
+            android:textColor="#ffff"
+            android:textSize="20sp"
+
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="100"
+    android:layout_marginTop="20dp"
+    >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="CS507"
+        android:id="@+id/en507"
+        android:layout_weight="50"
+        android:gravity="center"
+        android:textColor="#ffff"
+        android:textSize="20sp"
+
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+        android:id="@+id/marks507"
+        android:layout_weight="50"
+        android:gravity="center"
+        android:textColor="#ffff"
+        android:textSize="20sp"
+
+        />
+
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="CS508"
+            android:id="@+id/en508"
+            android:layout_weight="50"
+            android:gravity="center"
+            android:textColor="#ffff"
+            android:textSize="20sp"
+
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+
+            android:id="@+id/marks508"
+            android:layout_weight="50"
+            android:gravity="center"
+            android:textColor="#ffff"
+            android:textSize="20sp"
+
+            />
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_marginTop="40dp"
+        android:textColor="#024079"
+        android:background="#ffff"
+        android:layout_width="125dp"
+        android:layout_height="40dp"
+        android:text="Send review"
+        android:id="@+id/email_bt"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>
+    </ScrollView>

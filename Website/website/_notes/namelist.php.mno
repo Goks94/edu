@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:studentID;datatype:int,name:password;datatype:string,name:rollno;datatype:int,name:name;datatype:string,name:regno;datatype:string,name:mobileno;datatype:real,name:email;datatype:string,name:address;datatype:string,name:dob;datatype:date" />
+	<infoitem key="UD_rs_namelist" value="name:studentID;datatype:int,name:password;datatype:string,name:rollno;datatype:int,name:name;datatype:string,name:regno;datatype:string,name:mobileno;datatype:real,name:email;datatype:string,name:address;datatype:string,name:dob;datatype:date" />
+</info>

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:scrollbars="vertical"
+
+   >
+
+
+
+    <EditText
+        android:layout_marginTop="100dp"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:inputType="textPersonName"
+        android:gravity="center"
+        android:id="@+id/user_et"
+        android:background="#ffff"
+        android:hint="Name"
+        android:layout_gravity="center"
+
+
+        />
+
+    <EditText
+        android:layout_width="250dp"
+        android:inputType="date"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:id="@+id/dob_et"
+        android:background="#ffff"
+        android:hint="DOB (mm-dd-yyyy)"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+
+        />
+
+    <EditText
+        android:layout_width="250dp"
+        android:inputType="textPersonName"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:id="@+id/reg_et"
+        android:background="#ffff"
+        android:hint="Registration No."
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+
+        />
+
+
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:inputType="textEmailAddress"
+        android:id="@+id/email_et"
+        android:background="#ffff"
+        android:hint="E-mail"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+
+        />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:inputType="phone"
+        android:gravity="center"
+        android:id="@+id/mobile_et"
+        android:background="#ffff"
+        android:hint="Mobile"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:textColor="#ffff"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        >
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:gravity="center"
+            android:inputType="textPostalAddress"
+            android:ems="10"
+            android:id="@+id/address1_et"
+            android:background="#ffff"
+            android:hint="Address line 1"
+            android:layout_marginTop="20dp"
+
+            />
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:gravity="center"
+            android:inputType="textPostalAddress"
+            android:ems="10"
+            android:id="@+id/address2_et"
+            android:background="#ffff"
+            android:hint="Address line 2"
+            android:layout_marginTop="20dp"
+            />
+          </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <EditText
+            android:layout_width="120dp"
+            android:layout_height="43dp"
+            android:gravity="center"
+            android:inputType="textPostalAddress"
+            android:ems="10"
+            android:id="@+id/post_et"
+            android:background="#ffff"
+            android:hint="Post Office"
+            android:layout_marginTop="13dp"
+
+            />
+        <EditText
+            android:layout_marginLeft="10dp"
+            android:layout_width="120dp"
+            android:layout_height="43dp"
+            android:gravity="center"
+            android:inputType="phone"
+            android:ems="10"
+            android:id="@+id/pin_et"
+            android:background="#ffff"
+            android:hint="PIN"
+            android:layout_marginTop="13dp"
+            />
+
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <EditText
+            android:layout_width="120dp"
+            android:layout_height="43dp"
+            android:gravity="center"
+            android:inputType="textPostalAddress"
+            android:ems="10"
+            android:id="@+id/district_et"
+            android:background="#ffff"
+            android:hint="District"
+            android:layout_marginTop="13dp"
+            />
+        <EditText
+            android:layout_marginLeft="10dp"
+            android:layout_width="120dp"
+            android:layout_height="43dp"
+            android:gravity="center"
+            android:inputType="textPostalAddress"
+            android:ems="10"
+            android:id="@+id/state_et"
+            android:background="#ffff"
+            android:hint="State"
+            android:layout_marginTop="13dp"
+            />
+
+    </LinearLayout>
+
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Change Password"
+    android:textColor="#ffff"
+    android:textSize="25sp"
+    android:textStyle="bold"
+    android:layout_marginTop="20dp"
+    android:layout_gravity="center"
+     >
+    </TextView>
+
+
+
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:id="@+id/newpass_et"
+        android:inputType="textPassword"
+        android:background="#ffff"
+        android:hint="New Password"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+
+        />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:id="@+id/confirmpass_et"
+        android:inputType="textPassword"
+        android:background="#ffff"
+        android:hint="Confirm Password"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+
+        />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="SAVE"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:id="@+id/save_bt"
+        android:layout_marginTop="20dp"
+        android:background="#024079"
+        android:textColor="#ffff"
+        android:layout_alignRight="@id/confirmpass_et"
+        android:layout_alignLeft="@id/confirmpass_et"
+        android:layout_gravity="center"
+
+
+        />
+
+</LinearLayout>
+</ScrollView>
